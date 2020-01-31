@@ -1,0 +1,375 @@
+header {
+    background-color: #ffffff;
+}
+
+header .logo h1 {
+    font-family: roboto;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #3b3322;
+}
+
+header .logo h1 span {
+    font-weight: 800;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 30px;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #3b3b3b;
+}
+
+header nav ul li a span {
+    color: #00d09c;
+}
+
+header nav ul li a span:hover {
+    color: #08614b;
+}
+
+header nav ul li a:hover {
+    color: #00d09c;
+}
+
+
+/* section 1 */
+
+.section-1 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    font-family: roboto;
+}
+
+.section-1 h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65px;
+    margin-bottom: .1em;
+    color: #222222;
+}
+
+.section-1 h1 a {
+    color: #00d09c;
+}
+
+.section-1 h1 a:hover {
+    color: #0a664f;
+}
+
+.section-1 p {
+    color: #6f6f6f;
+    padding-right: 6em;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 3em;
+}
+
+.section-1 .sec-btn {
+    background-color: #00d09c;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 25px 5px 25px 5px;
+}
+
+.section-1 .sec-btn:hover {
+    background-image: radial-gradient(at bottom right, #5bb39d, #08614b);
+}
+
+.section-1 img {
+    position: relative;
+    top: 50px;
+    height: 400px;
+    width: 490px;
+}
+
+
+/* .section-2 */
+
+.section-2 {
+    margin-top: 30px;
+}
+
+.section-2 img {
+    height: 80px;
+}
+
+.section-2 .box {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    background-color: #f3f3f3;
+    border-radius: 30px 5px 30px 5px;
+}
+
+.section-2 .box:hover {
+    background-image: radial-gradient(at bottom right, #5bb39d, #08614b);
+}
+
+.section-2 .two {
+    background-image: radial-gradient(at bottom right, #7aebce, #00d09c);
+}
+
+.section-2 .box span {
+    margin: 1em;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+
+/* section-3 */
+
+.section-3 {
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+
+.section-3 img {
+    position: relative;
+    top: 70px;
+    margin-bottom: 5em;
+    height: 300px;
+    width: 500px;
+}
+
+.section-3 .grid-container {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.section-3 .name-tag p {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #00d09c;
+    display: inline-block;
+    margin-bottom: -8em;
+    padding: 10px 30px;
+    border-radius: 30px 30px 0px 5px;
+}
+
+.section-3 .name-tag p:hover {
+    background-image: radial-gradient(at bottom right, #5bb39d, #08614b);
+}
+
+.section-3 .price p {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    background-color: #4e4e4e;
+    display: inline-block;
+    padding: 10px 30px;
+    padding-right: 60px;
+    margin-top: .5em;
+    border-radius: 0px 5px 30px 30px;
+}
+
+.section-3 p {
+    color: #6f6f6f;
+    font-family: sans-serif;
+    padding-right: 6em;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 3em;
+}
+
+.section-3 a {
+    background-color: #00d09c;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 25px 5px 25px 5px;
+}
+
+.section-3 a:hover {
+    background-image: radial-gradient(at bottom right, #5bb39d, #08614b);
+}
+
+
+/* section 4 
+copied section 2 and edited....
+*/
+
+.section-4 {
+    background-color: #f3f3f3;
+}
+
+.section-4 h1 {
+    color: #222222;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.section-4 hr {
+    border-bottom: 5px solid #00d09c;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.section-4 img {
+    position: relative;
+    height: 150px;
+}
+
+.section-4 .box {
+    padding: 5em;
+    background-color: #f3f3f3;
+    border-radius: 30px 5px 30px 5px;
+}
+
+.section-4 .box:hover {
+    background-image: radial-gradient(at bottom right, #7aebce, #00d09c);
+}
+
+.section-4 .name-tag p {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #4e4e4e;
+    display: inline-block;
+    padding: 10px 33px;
+    margin-bottom: -.8em;
+    border-radius: 30px 30px 5px 0px;
+}
+
+.section-4 .price p {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #00d09c;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 11px;
+    border-radius: 0px 5px 30px 30px;
+}
+
+.section-4 .price p:hover {
+    background-image: radial-gradient(at bottom right, #5bb39d, #08614b);
+}
+
+
+/* section 5 */
+
+.section-5 {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10em;
+}
+
+.section-5 .grid-100 div {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.section-5 .grid-100 img {
+    height: 70px;
+    width: 200px;
+    margin: 0 2em;
+}
+
+.section-5 .grid-100 h1 {
+    color: #636363;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: -.1em;
+}
+
+.section-5 .grid-100 h2 {
+    color: #868686;
+    font-family: sans-serif;
+}
+
+.section-5 .grid-100 h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #ffffff;
+}
+
+footer .logo h1 {
+    font-family: roboto;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #3b3322;
+}
+
+footer .logo h1 span {
+    font-weight: 800;
+    color: #00d09c;
+    ;
+}
+
+footer nav ul {
+    float: right;
+    margin-top: 30px;
+    align-items: center;
+}
+
+footer nav ul li {
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #3b3b3b;
+}
+
+footer nav ul li a img {
+    height: 30px;
+    display: inline-flexbox;
+}
+
+footer nav ul li a span {
+    color: #00d09c;
+}
+
+footer nav ul li a span:hover {
+    color: #08614b;
+}
+
+footer nav ul li a:hover {
+    color: #00d09c;
+}
